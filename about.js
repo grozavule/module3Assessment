@@ -23,7 +23,7 @@ const compliments = [
 	`How do you work so hard and still keep such a positive attitude?`,
 	`All my base are belong to you!`,
 	`All the praise and adulation of which I'm capable is insufficient for you!`,
-	`I'm unworthy to stand in the garden of your turbulence!`
+	`I'm unworthy to walk in the garden of your turbulence!`
 ];
 let rubberDuckImg = document.querySelector('img#rubber-duck');
 rubberDuckImg.addEventListener('mouseover', e => {
