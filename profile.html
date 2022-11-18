@@ -3,7 +3,6 @@
 <head>
 	<title>Eric Drake's Profile</title>
 	<link href="styles.css" rel="stylesheet">
-
 </head>
 <body>
 	<nav>
@@ -54,7 +53,7 @@
                     <figcaption>MySQL</figcaption>
                 </section>
                 <section class="bubble">
-                    <a href="https://www.laravel.com" target="_blank">
+                    <a href="https://laravel.com" target="_blank">
                         <img src="./images/laravel-logo.jpg" alt="Laravel" class="badge" />
                     </a>
                     <figcaption>Laravel</figcaption>
@@ -66,10 +65,24 @@
             <ul>
                 <li>Find a space for myself in the relevant tech world.</li>
                 <li>Contribute something meaningful to humanity.</li>
-                <li>Make sufficient money to provide my family with the comforts they need.</li>
+                <li>Make sufficient money to provide for my family's needs and comfort.</li>
             </ul>
         </section>
     </content>
+    <form>
+        <fieldset>
+            <legend>Contact me</legend>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" required/>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required/>
+            <label for="email-address">Email Address</label>
+            <input type="email" name="email-address" id="email-address" required/>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+            <input type="submit" class="button" name="submit" value="Send" />
+        </fieldset>
+    </form>
 <a href="./home.html"><< Back </a>
 </body>
 </html>
